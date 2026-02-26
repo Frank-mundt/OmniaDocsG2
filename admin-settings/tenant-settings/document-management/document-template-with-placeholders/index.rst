@@ -3,7 +3,7 @@ Creating a document template with place holders
 
 A document property place holder starts with [[ and ends with ]] and can be placed anywhere inside a DOCX document. Most place holders can also be placed anywhere inside an XLSX document, including header and footer, and in PowerPoint (PPTX) documents as well, in both header and content. Place holders support any document property. 
 
-For more information on placeholders available for each application, see below.
+For more information on placeholders available for each application, see below. Note that the tokens presented on this page are examples. Tokens can be added in specific implementations.
 
 .. note:: In a template you probably want the published copy of the template to include the placeholders. To ensure that the placeholders are not replaced by document properties on the template, you need to escape the placeholders using the character “\\”. An escaped placeholder would look like this:
 
