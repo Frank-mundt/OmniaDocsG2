@@ -1,11 +1,12 @@
-Tokens in Omnia emails
+Tokens in Omnia Emails
 =========================
 
 Here you will find a list of Omnia Emails that contain tokens, and the tokens supported in each Email. Also note that tokens must not be translated.
 
-**Note!** In some files Subject is called "EmailTitle" and Body can be called "Description". In this document Subject and Body are always used.
+**Note!** In some files Subject is called "EmailTitle" and Body can be called "Description". In this document Subject and Body are always used. 
+Also note that this page contains examples of token usage. Tokens can be added in specific implementations.
 
-Announcements emails
+Announcements Emails
 -------------------------
 There are three different Emails that can be sent, regarding comments to announcements. In all three Emails, just one token is supported in Subject:
 
@@ -143,7 +144,7 @@ In **CancelBodyTemplate**:
 + {{Approver}}
 + {{Name}}
 
-**Feedback e-mail**:
+**Feedback Email**:
 In this Document management Email, these tokens are supported in Subject:
 
 + {{DocumentName}}
@@ -227,7 +228,7 @@ The following tokens are supported in Body for **ApproveBodyTemplateApproveBodyN
 + {{ProcessTitle}}
 + {{ApproverName}} 
 
-**Review reminder Email**: this token is supported in Subject for this Processes e-mail:
+**Review reminder Email**: this token is supported in Subject for this Processes Email:
 
 + {{ProcessTitle}}
 
@@ -241,7 +242,7 @@ The following tokens are supported in Body:
 + {{PublishDate}}
 + {{ReviewDate}}
 
-App approval emails
+App approval Emails
 ----------------------
 In the app approval Emails (for Communities, Publishing and Teamwork), the following tokens are supported:
 
@@ -249,13 +250,13 @@ In the app approval Emails (for Communities, Publishing and Teamwork), the follo
 
 + {{pendingRequestUrl}}
 
-**App provisioning complete Email**: In this email, sent to the requester, no token is supported in Subject. The following tokens are supported in Body:
+**App provisioning complete Email**: In this Email, sent to the requester, no token is supported in Subject. The following tokens are supported in Body:
 
 + {{userDisplayName}}
 + {{appUrl}}
 + {{title}}
 
-**AppRequestRejectedToRequester email**: Sent when creation of the community, publishing app or teamwork is rejected, no tokens are supported in Subject. The following tokens are supported in Body:
+**AppRequestRejectedToRequester Email**: Sent when creation of the community, publishing app or teamwork is rejected, no tokens are supported in Subject. The following tokens are supported in Body:
 
 + {{UserDisplayName1}}
 + {{rejectedComment}}
@@ -298,5 +299,6 @@ In the Email **InvitationOfCoAuthors**, no tokens are supported in Subject. Thes
 + {{pageUrl}}
 + {{title}}
 + {{content}}
+
 
 
