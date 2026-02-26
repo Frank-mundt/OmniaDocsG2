@@ -1,7 +1,7 @@
 Using tokens in Omnia
 =============================================
 
-Here you will find a list of tokens that can be used in Omnia for various purposes. This list is not to be considered the absolute full list. Tokens can be added for specific uses. Note that tokens must not be translated.
+There are a number of tokens in Omnia that can be used for various purposes. This following lists are not to be considered the absolute full lists. Tokens can be added for specific uses. Note that tokens must not be translated.
 
 Tokens in search query
 ***********************
@@ -31,7 +31,7 @@ To search pages in my language: FileType:aspx AND OmniaVariationSegmentOWSTEXT:{
 
 Tokens used with action buttons
 ************************************
-The following tokens can be used in text fields when using action buttons:
+Examples of tokens that can be used in text fields when using action buttons:
 
 + AppInstance tokens like {{AppInstance.Title}} etc.
 + {{Action.Type}}: The type of the button that is clicked.
@@ -44,7 +44,7 @@ If possible (WCM dependent), the following placeholders may be used as well:
 
 Tokens in document rollup
 ***************************
-The following tokens cam be used in document rollups:
+Examples of tokens that can be used in document rollups:
 
 + Document.FullUrl
 + Document.RelativeUrl
@@ -58,7 +58,7 @@ For tokens used in e-mails within Omnia, se this page: :doc:`Tokens in Omnia e-m
 
 Text field tokens and tokens for Matomo event trackning
 ********************************************************
-These tokens can be used in text fields in WCM and can also be used for Matomo event tracking:
+These tokens can be used in text fields in WCM and can also be used for Matomo event tracking. Here are some examples:
 
 + {{Appinstance.Title}}
 + {{Appinstance.Description}}
@@ -71,7 +71,7 @@ Using placeholders in process management
 *****************************************
 Placeholders are a special kind of tokens. They are properties added between double brackets. When you print, the placeholders are replaced by by actual data, for example the title for the process or a date.
 
-You can use these placeholders in the cover page, the header or the footer. Short information about them is available through the i icon.
+You can use these placeholders in the cover page, the header or the footer. Short information about them is available through the i icon. Here are som ex<amples:
 
 + [[OPMProcessTitle]]	- adds the titel of the process printed.
 + [[OPMEdition]] - adds the edition number of the process printed.
@@ -86,5 +86,6 @@ You can use these placeholders in the cover page, the header or the footer. Shor
 Using placeholders in document management
 ******************************************
 For tokens (placeholders) that can be used in document management, see this page: :doc:`Creating a document template with place holders </admin-settings/tenant-settings/document-management/document-template-with-placeholders/index>`
+
 
 
